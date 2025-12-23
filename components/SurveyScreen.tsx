@@ -85,7 +85,7 @@ const SurveyScreen: React.FC<SurveyScreenProps> = ({ onComplete, stats, onSFX, s
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/handmade-paper.png')] opacity-5"></div>
             <h2 className="text-center text-[10px] font-black uppercase tracking-[0.8em] text-white/10 mb-12">Hành trình tìm hiểu thực trạng 1986</h2>
             
-            <div className="relative h-full w-full">
+            <div className="relative h-[80%] w-full">
               {SURVEY_POINTS.map((point) => (
                 <button
                   key={point.id}
